@@ -22,9 +22,17 @@ body{
   margin-right: 20px;
   cursor: pointer;
 }
+.move-button:hover{
+  background-color: rgb(150, 150, 150);
+  border-color: rgb(255, 255, 255);
+  border-width: 3px;
+  border-radius: 360px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
 .reset-button,
 .auto-play-button{
-  background-color: white;
   border: none;
   padding: 10px;
   margin-left: 20px;
@@ -35,9 +43,32 @@ body{
   cursor: pointer;
   margin-bottom: 20px;
 }
+.reset-button:hover,
+.auto-play-button:hover{
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: rgb(65, 123, 7);
+  border: solid 1px white;
+  color:white;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
 .confirm-button
 {
   background-color: lawngreen;
+  color: black;
+  border: none;
+  font-weight: bold;
+  margin-left:5px ;
+  cursor: pointer;
+}
+
+.confirm-button:hover
+{
+  background-color: rgb(65, 123, 7);
   color: black;
   border: none;
   font-weight: bold;
