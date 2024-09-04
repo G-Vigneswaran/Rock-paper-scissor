@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(25,25, 25);
+  color:lawngreen;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+
+}
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.move-img{
+  height: 50px;
+  padding: 25px;
+}
+.move-button{
+  background-color: rgb(25,25, 25);
+  border-color: white;
+  border-width: 3px;
+  border-radius: 360px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.reset-button,
+.auto-play-button{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  background-color: lawngreen;
+  color:rgb(25,25,25);
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.confirm-button
+{
+  background-color: lawngreen;
+  color: black;
+  border: none;
+  font-weight: bold;
+  margin-left:5px ;
+  cursor: pointer;
+}
